@@ -23,6 +23,7 @@ class HomeScreenContainer extends Component {
         </TouchableOpacity>
         <TodoList
           checkTodo={this.props.checkTodo}
+          uncheckTodo={this.props.uncheckTodo}
           todos={this.props.todos}
         />
       </ScrollView>
